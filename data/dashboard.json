@@ -1,46 +1,46 @@
 {
   "is_demo": false,
   "score": 47,
-  "score_change": 9,
+  "score_change": 0,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-07-22T16:42:41.941761Z",
+  "updated_at": "2026-07-22T16:57:12.029372Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "213,72",
-      "change": "+3,10% no último pregão",
+      "value": "214,11",
+      "change": "+3,29% no último pregão",
       "direction": "positive"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "25.804,12",
-      "change": "-0,13% no último pregão",
+      "value": "25.823,99",
+      "change": "-0,05% no último pregão",
       "direction": "negative"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "16,80",
-      "change": "-1,47% no último pregão",
+      "value": "16,82",
+      "change": "-1,35% no último pregão",
       "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "589,72",
-      "change": "+0,97% no último pregão",
+      "value": "590,95",
+      "change": "+1,18% no último pregão",
       "direction": "positive"
     }
   ],
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 34,
+      "score": 35,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
