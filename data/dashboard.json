@@ -6,34 +6,34 @@
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-07-22T16:57:12.029372Z",
+  "updated_at": "2026-07-22T17:02:14.213637Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "214,11",
-      "change": "+3,29% no último pregão",
+      "value": "214,26",
+      "change": "+3,36% no último pregão",
       "direction": "positive"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "25.823,99",
-      "change": "-0,05% no último pregão",
+      "value": "25.819,73",
+      "change": "-0,07% no último pregão",
       "direction": "negative"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "16,82",
-      "change": "-1,35% no último pregão",
+      "value": "16,81",
+      "change": "-1,41% no último pregão",
       "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "590,95",
-      "change": "+1,18% no último pregão",
+      "value": "590,84",
+      "change": "+1,16% no último pregão",
       "direction": "positive"
     }
   ],
