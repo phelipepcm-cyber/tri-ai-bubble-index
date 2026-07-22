@@ -49,7 +49,7 @@
 
   function getStoredLead() {
     try {
-      const raw = localStorage.getItem("tri_ai_bubble_lead");
+      const raw = localStorage.getItem("tri_ai_bubble_lead_v2");
       return raw ? JSON.parse(raw) : null;
     } catch {
       return null;
@@ -57,8 +57,8 @@
   }
 
   function storeLead(lead) {
-    localStorage.setItem("tri_ai_bubble_lead", JSON.stringify(lead));
-    localStorage.setItem("tri_ai_bubble_access", "granted");
+    localStorage.setItem("tri_ai_bubble_lead_v2", JSON.stringify(lead));
+    localStorage.setItem("tri_ai_bubble_access_v2", "granted");
   }
 
   function showGate() {
@@ -106,15 +106,17 @@
       return { ...lead, id: `local-${Date.now()}`, storage: "local" };
     }
 
+    const leadId = crypto.randomUUID();
     const response = await fetch(`${config.supabaseUrl}/rest/v1/leads`, {
       method: "POST",
       headers: {
         apikey: config.supabaseAnonKey,
         Authorization: `Bearer ${config.supabaseAnonKey}`,
         "Content-Type": "application/json",
-        Prefer: "return=representation"
+        Prefer: "return=minimal"
       },
       body: JSON.stringify({
+        id: leadId,
         name: lead.name,
         email: lead.email,
         phone: lead.phone,
@@ -130,8 +132,7 @@
       throw new Error(`Falha no cadastro: ${detail}`);
     }
 
-    const rows = await response.json();
-    return { ...lead, id: rows?.[0]?.id, storage: "supabase" };
+    return { ...lead, id: leadId, storage: "supabase" };
   }
 
   async function logAccess(lead) {
