@@ -1,0 +1,20 @@
+CONFIGURAÇÃO FÁCIL DO SUPABASE — WINDOWS
+
+1. No Supabase, abra o seu projeto.
+2. Copie a Project URL.
+3. Copie a Publishable key. Se aparecer apenas a chave antiga, copie a anon public key.
+4. Na pasta TRI AI Bubble Index, dê dois cliques em:
+
+   CONFIGURAR_SUPABASE_WINDOWS.bat
+
+5. Cole a Project URL e pressione ENTER.
+6. Cole a Publishable key e pressione ENTER.
+7. O arquivo config.js será alterado automaticamente.
+
+Você não precisa instalar nenhum programa.
+
+ALTERNATIVA MANUAL
+
+Clique com o botão direito em config.js > Abrir com > Bloco de Notas.
+Substitua apenas os textos entre aspas nas linhas supabaseUrl e supabaseAnonKey.
+Depois use Arquivo > Salvar.

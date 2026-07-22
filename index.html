@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="TRI AI Bubble Index — acompanhe diariamente sinais de formação de bolha no mercado de inteligência artificial." />
+  <meta name="theme-color" content="#07090d" />
+  <title>TRI AI Bubble Index</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <div id="registrationGate" class="gate" aria-hidden="true">
+    <div class="gate-card" role="dialog" aria-modal="true" aria-labelledby="gateTitle">
+      <div class="brand brand-gate">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div>
+          <strong>TRI</strong>
+          <small>INVESTIMENTOS</small>
+        </div>
+      </div>
+
+      <p class="eyebrow">ACESSO GRATUITO</p>
+      <h1 id="gateTitle">Acompanhe diariamente os sinais de bolha no mercado de IA.</h1>
+      <p class="gate-copy">Cadastre-se para acessar o índice, o resumo do dia e os principais sinais monitorados pela TRI.</p>
+
+      <form id="leadForm" novalidate>
+        <label>
+          <span>Nome</span>
+          <input id="leadName" name="name" type="text" autocomplete="name" placeholder="Seu nome" minlength="2" required />
+          <small class="field-error" data-error-for="leadName"></small>
+        </label>
+
+        <label>
+          <span>E-mail</span>
+          <input id="leadEmail" name="email" type="email" autocomplete="email" placeholder="voce@email.com" required />
+          <small class="field-error" data-error-for="leadEmail"></small>
+        </label>
+
+        <label>
+          <span>WhatsApp</span>
+          <input id="leadPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(11) 99999-9999" minlength="10" required />
+          <small class="field-error" data-error-for="leadPhone"></small>
+        </label>
+
+        <label class="consent-row">
+          <input id="leadConsent" name="consent" type="checkbox" required />
+          <span>Concordo em receber conteúdos e comunicações da TRI Investimentos. Posso cancelar a qualquer momento.</span>
+        </label>
+        <small class="field-error consent-error" data-error-for="leadConsent"></small>
+
+        <button id="accessButton" class="button button-primary button-full" type="submit">
+          <span>Acessar o radar</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </button>
+
+        <p id="formMessage" class="form-message" role="status"></p>
+        <p class="privacy-note">Seus dados são usados exclusivamente para liberar o acesso e permitir comunicações da TRI.</p>
+      </form>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="TRI Investimentos">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div>
+          <strong>TRI</strong>
+          <small>INVESTIMENTOS</small>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <div class="updated-chip">
+          <span class="live-dot"></span>
+          <div>
+            <small>ÚLTIMA ATUALIZAÇÃO</small>
+            <strong id="headerUpdatedAt">Carregando...</strong>
+          </div>
+        </div>
+        <button id="shareButton" class="icon-button" type="button" aria-label="Compartilhar dashboard" title="Compartilhar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.7 6.8-4M8.6 13.3l6.8 4"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="shell main-content">
+    <section class="hero-grid">
+      <article class="panel hero-score-panel">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">TRI MARKET INTELLIGENCE</p>
+            <h1>AI Bubble Index</h1>
+          </div>
+          <span id="demoBadge" class="demo-badge" hidden>DADOS DEMONSTRATIVOS</span>
+        </div>
+
+        <div class="score-layout">
+          <div class="gauge-wrap">
+            <div id="scoreGauge" class="gauge" style="--score: 0; --risk-color: #49d17d;">
+              <div class="gauge-center">
+                <span id="scoreValue">--</span>
+                <small>/ 100</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="score-copy">
+            <span id="riskBadge" class="risk-badge risk-low">CARREGANDO</span>
+            <h2 id="riskHeadline">Analisando o mercado...</h2>
+            <p id="riskSummary">Os dados estão sendo carregados.</p>
+            <div class="score-change">
+              <span>Variação do índice</span>
+              <strong id="scoreChange">--</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="risk-scale" aria-label="Escala de risco">
+          <div class="scale-track"><span id="scaleMarker" class="scale-marker"></span></div>
+          <div class="scale-labels"><span>0</span><span>40</span><span>70</span><span>100</span></div>
+          <div class="scale-zones"><span>SAUDÁVEL</span><span>ATENÇÃO</span><span>RISCO ELEVADO</span></div>
+        </div>
+      </article>
+
+      <aside class="panel summary-panel">
+        <div class="summary-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg>
+        </div>
+        <p class="eyebrow">RESUMO DO DIA</p>
+        <h2 id="summaryTitle">Leitura do mercado</h2>
+        <p id="executiveSummary">Carregando o resumo executivo...</p>
+        <div class="summary-footer">
+          <span>Leitura baseada em preço, momentum, volatilidade e concentração.</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">LEITURA RÁPIDA</p>
+          <h2>O que mudou no mercado</h2>
+        </div>
+        <span id="marketDate" class="muted-label">--</span>
+      </div>
+      <div id="marketCards" class="market-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="section-block analysis-grid">
+      <article class="panel chart-panel">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">EVOLUÇÃO</p>
+            <h2>Histórico do índice</h2>
+          </div>
+          <span class="period-chip">180 DIAS</span>
+        </div>
+        <div class="chart-wrap">
+          <svg id="historyChart" viewBox="0 0 900 320" role="img" aria-label="Gráfico histórico do TRI AI Bubble Index"></svg>
+        </div>
+        <div class="chart-legend"><span><i class="legend-dot legend-line"></i>TABI</span><span><i class="legend-dot legend-low"></i>Saudável</span><span><i class="legend-dot legend-medium"></i>Atenção</span><span><i class="legend-dot legend-high"></i>Risco elevado</span></div>
+      </article>
+
+      <article class="panel components-panel">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">COMPOSIÇÃO</p>
+            <h2>Sinais monitorados</h2>
+          </div>
+        </div>
+        <div id="componentList" class="component-list"></div>
+      </article>
+    </section>
+
+    <section class="panel interpretation-panel">
+      <div class="section-heading compact">
+        <div>
+          <p class="eyebrow">COMO INTERPRETAR</p>
+          <h2>Uma leitura simples em três faixas</h2>
+        </div>
+      </div>
+      <div class="interpretation-grid">
+        <article class="interpretation-card low">
+          <span>0–40</span>
+          <h3>Mercado saudável</h3>
+          <p>Valorização compatível com crescimento, sem combinação forte de sinais especulativos.</p>
+        </article>
+        <article class="interpretation-card medium">
+          <span>41–70</span>
+          <h3>Atenção</h3>
+          <p>Mercado aquecido. Valuation, concentração ou euforia começam a exigir mais seletividade.</p>
+        </article>
+        <article class="interpretation-card high">
+          <span>71–100</span>
+          <h3>Risco elevado</h3>
+          <p>Conjunto intenso de sinais de exuberância. Exige cautela, gestão de risco e disciplina.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="methodology-note">
+      <div>
+        <p class="eyebrow">NOTA METODOLÓGICA</p>
+        <p>O TABI é um indicador proprietário de apoio à leitura de mercado. Ele não representa recomendação de compra ou venda.</p>
+      </div>
+      <button id="methodologyButton" class="text-button" type="button">Ver metodologia</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div>
+        <strong>TRI Investimentos</strong>
+        <p>Construímos patrimônio com inteligência financeira.</p>
+      </div>
+      <p>© <span id="currentYear"></span> TRI Investimentos. Conteúdo educacional.</p>
+    </div>
+  </footer>
+
+  <div id="methodologyModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="methodologyTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Fechar">×</button>
+      <p class="eyebrow">METODOLOGIA</p>
+      <h2 id="methodologyTitle">Como o TRI AI Bubble Index é calculado</h2>
+      <p>O índice combina seis blocos de mercado. Cada bloco é normalizado numa escala de 0 a 100 e recebe um peso definido pela TRI.</p>
+      <div id="methodologyComponents" class="methodology-components"></div>
+      <p class="modal-disclaimer">O indicador é quantitativo, pode sofrer revisões e deve ser usado em conjunto com análise fundamentalista, objetivos pessoais e perfil de risco.</p>
+    </article>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
