@@ -1,27 +1,262 @@
 {
-  "is_demo": true,
-  "score": 38,
-  "score_change": 1,
-  "status": "Baixo risco",
-  "headline": "Mercado ainda saudável",
+  "is_demo": false,
+  "score": 47,
+  "score_change": 9,
+  "status": "Atenção",
+  "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
-  "summary": "O mercado segue aquecido, mas ainda sem uma combinação intensa de sinais especulativos. Momentum, concentração e volatilidade permanecem em níveis que exigem acompanhamento, não alarme.",
-  "updated_at": "2026-07-22T11:30:00Z",
+  "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
+  "updated_at": "2026-07-22T16:42:41.941761Z",
   "market_cards": [
-    {"label":"NVIDIA","symbol":"NVDA","value":"—","change":"Automação ainda não executada","direction":"neutral"},
-    {"label":"Nasdaq","symbol":"IXIC","value":"—","change":"Automação ainda não executada","direction":"neutral"},
-    {"label":"VIX","symbol":"VIX","value":"—","change":"Automação ainda não executada","direction":"neutral"},
-    {"label":"Semicondutores","symbol":"SMH","value":"—","change":"Automação ainda não executada","direction":"neutral"}
+    {
+      "label": "NVIDIA",
+      "symbol": "NVDA",
+      "value": "213,72",
+      "change": "+3,10% no último pregão",
+      "direction": "positive"
+    },
+    {
+      "label": "Nasdaq",
+      "symbol": "IXIC",
+      "value": "25.804,12",
+      "change": "-0,13% no último pregão",
+      "direction": "negative"
+    },
+    {
+      "label": "VIX",
+      "symbol": "VIX",
+      "value": "16,80",
+      "change": "-1,47% no último pregão",
+      "direction": "negative"
+    },
+    {
+      "label": "Semicondutores",
+      "symbol": "SMH",
+      "value": "589,72",
+      "change": "+0,97% no último pregão",
+      "direction": "positive"
+    }
   ],
   "components": [
-    {"name":"Momentum Nasdaq","score":42,"weight":20,"note":"Retorno e aceleração"},
-    {"name":"Momentum NVIDIA","score":48,"weight":20,"note":"Proxy de euforia em IA"},
-    {"name":"Semicondutores vs. Nasdaq","score":36,"weight":15,"note":"Força relativa"},
-    {"name":"Concentração Big Tech","score":44,"weight":15,"note":"Liderança do mercado"},
-    {"name":"Complacência do VIX","score":30,"weight":15,"note":"Baixa volatilidade"},
-    {"name":"Distância da média de 200 dias","score":28,"weight":15,"note":"Alongamento de preço"}
+    {
+      "name": "Momentum Nasdaq",
+      "score": 34,
+      "weight": 20,
+      "note": "Retorno e aceleração"
+    },
+    {
+      "name": "Momentum NVIDIA",
+      "score": 32,
+      "weight": 20,
+      "note": "Proxy de euforia em IA"
+    },
+    {
+      "name": "Semicondutores vs. Nasdaq",
+      "score": 100,
+      "weight": 15,
+      "note": "Força relativa"
+    },
+    {
+      "name": "Concentração Big Tech",
+      "score": 12,
+      "weight": 15,
+      "note": "Liderança do mercado"
+    },
+    {
+      "name": "Complacência do VIX",
+      "score": 76,
+      "weight": 15,
+      "note": "Baixa volatilidade"
+    },
+    {
+      "name": "Distância da média de 200 dias",
+      "score": 39,
+      "weight": 15,
+      "note": "Alongamento de preço"
+    }
   ],
   "history": [
-    {"date":"2026-06-08","score":29},{"date":"2026-06-09","score":30},{"date":"2026-06-10","score":31},{"date":"2026-06-11","score":32},{"date":"2026-06-12","score":32},{"date":"2026-06-13","score":33},{"date":"2026-06-14","score":34},{"date":"2026-06-15","score":34},{"date":"2026-06-16","score":35},{"date":"2026-06-17","score":36},{"date":"2026-06-18","score":37},{"date":"2026-06-19","score":37},{"date":"2026-06-20","score":38},{"date":"2026-06-21","score":39},{"date":"2026-06-22","score":39},{"date":"2026-06-23","score":40},{"date":"2026-06-24","score":41},{"date":"2026-06-25","score":42},{"date":"2026-06-26","score":43},{"date":"2026-06-27","score":43},{"date":"2026-06-28","score":42},{"date":"2026-06-29","score":41},{"date":"2026-06-30","score":40},{"date":"2026-07-01","score":39},{"date":"2026-07-02","score":39},{"date":"2026-07-03","score":38},{"date":"2026-07-04","score":37},{"date":"2026-07-05","score":36},{"date":"2026-07-06","score":35},{"date":"2026-07-07","score":35},{"date":"2026-07-08","score":34},{"date":"2026-07-09","score":34},{"date":"2026-07-10","score":35},{"date":"2026-07-11","score":35},{"date":"2026-07-12","score":36},{"date":"2026-07-13","score":36},{"date":"2026-07-14","score":37},{"date":"2026-07-15","score":37},{"date":"2026-07-16","score":38},{"date":"2026-07-17","score":38},{"date":"2026-07-18","score":37},{"date":"2026-07-19","score":37},{"date":"2026-07-20","score":38},{"date":"2026-07-21","score":37},{"date":"2026-07-22","score":38}
-  ]
+    {
+      "date": "2026-06-08",
+      "score": 29
+    },
+    {
+      "date": "2026-06-09",
+      "score": 30
+    },
+    {
+      "date": "2026-06-10",
+      "score": 31
+    },
+    {
+      "date": "2026-06-11",
+      "score": 32
+    },
+    {
+      "date": "2026-06-12",
+      "score": 32
+    },
+    {
+      "date": "2026-06-13",
+      "score": 33
+    },
+    {
+      "date": "2026-06-14",
+      "score": 34
+    },
+    {
+      "date": "2026-06-15",
+      "score": 34
+    },
+    {
+      "date": "2026-06-16",
+      "score": 35
+    },
+    {
+      "date": "2026-06-17",
+      "score": 36
+    },
+    {
+      "date": "2026-06-18",
+      "score": 37
+    },
+    {
+      "date": "2026-06-19",
+      "score": 37
+    },
+    {
+      "date": "2026-06-20",
+      "score": 38
+    },
+    {
+      "date": "2026-06-21",
+      "score": 39
+    },
+    {
+      "date": "2026-06-22",
+      "score": 39
+    },
+    {
+      "date": "2026-06-23",
+      "score": 40
+    },
+    {
+      "date": "2026-06-24",
+      "score": 41
+    },
+    {
+      "date": "2026-06-25",
+      "score": 42
+    },
+    {
+      "date": "2026-06-26",
+      "score": 43
+    },
+    {
+      "date": "2026-06-27",
+      "score": 43
+    },
+    {
+      "date": "2026-06-28",
+      "score": 42
+    },
+    {
+      "date": "2026-06-29",
+      "score": 41
+    },
+    {
+      "date": "2026-06-30",
+      "score": 40
+    },
+    {
+      "date": "2026-07-01",
+      "score": 39
+    },
+    {
+      "date": "2026-07-02",
+      "score": 39
+    },
+    {
+      "date": "2026-07-03",
+      "score": 38
+    },
+    {
+      "date": "2026-07-04",
+      "score": 37
+    },
+    {
+      "date": "2026-07-05",
+      "score": 36
+    },
+    {
+      "date": "2026-07-06",
+      "score": 35
+    },
+    {
+      "date": "2026-07-07",
+      "score": 35
+    },
+    {
+      "date": "2026-07-08",
+      "score": 34
+    },
+    {
+      "date": "2026-07-09",
+      "score": 34
+    },
+    {
+      "date": "2026-07-10",
+      "score": 35
+    },
+    {
+      "date": "2026-07-11",
+      "score": 35
+    },
+    {
+      "date": "2026-07-12",
+      "score": 36
+    },
+    {
+      "date": "2026-07-13",
+      "score": 36
+    },
+    {
+      "date": "2026-07-14",
+      "score": 37
+    },
+    {
+      "date": "2026-07-15",
+      "score": 37
+    },
+    {
+      "date": "2026-07-16",
+      "score": 38
+    },
+    {
+      "date": "2026-07-17",
+      "score": 38
+    },
+    {
+      "date": "2026-07-18",
+      "score": 37
+    },
+    {
+      "date": "2026-07-19",
+      "score": 37
+    },
+    {
+      "date": "2026-07-20",
+      "score": 38
+    },
+    {
+      "date": "2026-07-21",
+      "score": 37
+    },
+    {
+      "date": "2026-07-22",
+      "score": 47
+    }
+  ],
+  "methodology_version": "1.0-price-proxy",
+  "data_provider": "Yahoo Finance via yfinance"
 }
