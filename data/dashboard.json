@@ -1,12 +1,12 @@
 {
   "is_demo": false,
   "score": 42,
-  "score_change": -5,
+  "score_change": 0,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-07-24T12:54:35.126723Z",
+  "updated_at": "2026-07-26T12:36:48.777644Z",
   "market_cards": [
     {
       "label": "NVIDIA",
@@ -25,9 +25,9 @@
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "18,65",
-      "change": "-0,27% no último pregão",
-      "direction": "negative"
+      "value": "18,70",
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     },
     {
       "label": "Semicondutores",
@@ -258,6 +258,10 @@
     },
     {
       "date": "2026-07-24",
+      "score": 42
+    },
+    {
+      "date": "2026-07-26",
       "score": 42
     }
   ],
