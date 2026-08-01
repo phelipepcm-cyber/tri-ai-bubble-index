@@ -1,76 +1,76 @@
 {
   "is_demo": false,
-  "score": 37,
-  "score_change": 8,
-  "status": "Baixo risco",
-  "headline": "Mercado ainda saudável",
+  "score": 41,
+  "score_change": 4,
+  "status": "Atenção",
+  "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
-  "summary": "Os sinais de preço e volatilidade ainda não formam uma combinação típica de bolha. O mercado pode estar aquecido, mas o quadro geral permanece em zona saudável.",
-  "updated_at": "2026-07-31T13:13:04.951191Z",
+  "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
+  "updated_at": "2026-08-01T12:32:28.039615Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "195,04",
-      "change": "0,00% no último pregão",
-      "direction": "neutral"
+      "value": "200,75",
+      "change": "+2,93% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "25.122,18",
-      "change": "0,00% no último pregão",
-      "direction": "neutral"
+      "value": "25.373,85",
+      "change": "+1,00% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "17,28",
-      "change": "+1,11% no último pregão",
-      "direction": "positive"
+      "value": "15,99",
+      "change": "-6,44% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "538,90",
-      "change": "0,00% no último pregão",
-      "direction": "neutral"
+      "value": "540,53",
+      "change": "+0,30% no último pregão",
+      "direction": "positive"
     }
   ],
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 23,
+      "score": 27,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
     {
       "name": "Momentum NVIDIA",
-      "score": 18,
+      "score": 23,
       "weight": 20,
       "note": "Proxy de euforia em IA"
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 82,
+      "score": 80,
       "weight": 15,
       "note": "Força relativa"
     },
     {
       "name": "Concentração Big Tech",
-      "score": 6,
+      "score": 15,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 74,
+      "score": 79,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
     {
       "name": "Distância da média de 200 dias",
-      "score": 29,
+      "score": 32,
       "weight": 15,
       "note": "Alongamento de preço"
     }
@@ -283,6 +283,10 @@
     {
       "date": "2026-07-31",
       "score": 37
+    },
+    {
+      "date": "2026-08-01",
+      "score": 41
     }
   ],
   "methodology_version": "1.0-price-proxy",
