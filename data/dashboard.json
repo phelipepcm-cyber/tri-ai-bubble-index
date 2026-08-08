@@ -1,76 +1,76 @@
 {
   "is_demo": false,
-  "score": 52,
-  "score_change": -3,
+  "score": 54,
+  "score_change": 2,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-08-07T12:06:50.832645Z",
+  "updated_at": "2026-08-08T11:52:07.399096Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "218,99",
-      "change": "0,00% no último pregão",
-      "direction": "neutral"
+      "value": "223,96",
+      "change": "+2,27% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "26.348,35",
-      "change": "0,00% no último pregão",
-      "direction": "neutral"
+      "value": "26.690,62",
+      "change": "+1,30% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "15,17",
-      "change": "+0,13% no último pregão",
-      "direction": "positive"
+      "value": "14,90",
+      "change": "-1,65% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "571,48",
-      "change": "0,00% no último pregão",
-      "direction": "neutral"
+      "value": "582,70",
+      "change": "+1,96% no último pregão",
+      "direction": "positive"
     }
   ],
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 43,
+      "score": 48,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
     {
       "name": "Momentum NVIDIA",
-      "score": 37,
+      "score": 40,
       "weight": 20,
       "note": "Proxy de euforia em IA"
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 85,
+      "score": 88,
       "weight": 15,
       "note": "Força relativa"
     },
     {
       "name": "Concentração Big Tech",
-      "score": 27,
+      "score": 26,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 83,
+      "score": 84,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
     {
       "name": "Distância da média de 200 dias",
-      "score": 43,
+      "score": 48,
       "weight": 15,
       "note": "Alongamento de preço"
     }
@@ -311,6 +311,10 @@
     {
       "date": "2026-08-07",
       "score": 52
+    },
+    {
+      "date": "2026-08-08",
+      "score": 54
     }
   ],
   "methodology_version": "1.0-price-proxy",
