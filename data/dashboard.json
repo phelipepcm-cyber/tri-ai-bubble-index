@@ -6,41 +6,41 @@
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-08-16T11:43:15.633926Z",
+  "updated_at": "2026-08-17T11:48:33.174279Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
       "value": "225,16",
-      "change": "-0,06% no último pregão",
-      "direction": "negative"
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
       "value": "26.729,16",
-      "change": "-0,28% no último pregão",
-      "direction": "negative"
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "14,25",
-      "change": "-2,60% no último pregão",
-      "direction": "negative"
+      "value": "14,91",
+      "change": "+4,63% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
       "value": "587,82",
-      "change": "-0,22% no último pregão",
-      "direction": "negative"
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     }
   ],
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 56,
+      "score": 57,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
@@ -52,7 +52,7 @@
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 80,
+      "score": 81,
       "weight": 15,
       "note": "Força relativa"
     },
@@ -64,7 +64,7 @@
     },
     {
       "name": "Complacência do VIX",
-      "score": 86,
+      "score": 84,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
@@ -346,6 +346,10 @@
     },
     {
       "date": "2026-08-16",
+      "score": 54
+    },
+    {
+      "date": "2026-08-17",
       "score": 54
     }
   ],
