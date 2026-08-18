@@ -1,12 +1,12 @@
 {
   "is_demo": false,
-  "score": 54,
-  "score_change": 0,
+  "score": 53,
+  "score_change": -1,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-08-17T11:48:33.174279Z",
+  "updated_at": "2026-08-18T11:49:14.846473Z",
   "market_cards": [
     {
       "label": "NVIDIA",
@@ -25,8 +25,8 @@
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "14,91",
-      "change": "+4,63% no último pregão",
+      "value": "15,72",
+      "change": "+10,32% no último pregão",
       "direction": "positive"
     },
     {
@@ -40,31 +40,31 @@
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 57,
+      "score": 56,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
     {
       "name": "Momentum NVIDIA",
-      "score": 41,
+      "score": 40,
       "weight": 20,
       "note": "Proxy de euforia em IA"
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 81,
+      "score": 79,
       "weight": 15,
       "note": "Força relativa"
     },
     {
       "name": "Concentração Big Tech",
-      "score": 20,
+      "score": 19,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 84,
+      "score": 80,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
@@ -351,6 +351,10 @@
     {
       "date": "2026-08-17",
       "score": 54
+    },
+    {
+      "date": "2026-08-18",
+      "score": 53
     }
   ],
   "methodology_version": "1.0-price-proxy",
