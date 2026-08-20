@@ -1,38 +1,38 @@
 {
   "is_demo": false,
-  "score": 48,
-  "score_change": -5,
+  "score": 46,
+  "score_change": -2,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-08-19T11:48:49.801133Z",
+  "updated_at": "2026-08-20T11:51:10.579520Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "219,74",
+      "value": "217,56",
       "change": "0,00% no último pregão",
       "direction": "neutral"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "26.289,71",
+      "value": "26.331,09",
       "change": "0,00% no último pregão",
       "direction": "neutral"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "15,77",
-      "change": "-0,44% no último pregão",
-      "direction": "negative"
+      "value": "15,33",
+      "change": "+2,96% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "569,77",
+      "value": "560,92",
       "change": "0,00% no último pregão",
       "direction": "neutral"
     }
@@ -46,25 +46,25 @@
     },
     {
       "name": "Momentum NVIDIA",
-      "score": 34,
+      "score": 30,
       "weight": 20,
       "note": "Proxy de euforia em IA"
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 74,
+      "score": 68,
       "weight": 15,
       "note": "Força relativa"
     },
     {
       "name": "Concentração Big Tech",
-      "score": 16,
+      "score": 13,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 80,
+      "score": 82,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
@@ -359,6 +359,10 @@
     {
       "date": "2026-08-19",
       "score": 48
+    },
+    {
+      "date": "2026-08-20",
+      "score": 46
     }
   ],
   "methodology_version": "1.0-price-proxy",
