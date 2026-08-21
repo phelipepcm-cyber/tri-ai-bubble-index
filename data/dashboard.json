@@ -1,38 +1,38 @@
 {
   "is_demo": false,
-  "score": 46,
-  "score_change": -2,
+  "score": 47,
+  "score_change": 1,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-08-20T11:51:10.579520Z",
+  "updated_at": "2026-08-21T11:50:07.720929Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "217,56",
+      "value": "216,85",
       "change": "0,00% no último pregão",
       "direction": "neutral"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "26.331,09",
+      "value": "26.067,17",
       "change": "0,00% no último pregão",
       "direction": "neutral"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "15,33",
-      "change": "+2,96% no último pregão",
-      "direction": "positive"
+      "value": "15,51",
+      "change": "-3,12% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "560,92",
+      "value": "562,65",
       "change": "0,00% no último pregão",
       "direction": "neutral"
     }
@@ -40,7 +40,7 @@
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 48,
+      "score": 50,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
@@ -52,25 +52,25 @@
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 68,
+      "score": 70,
       "weight": 15,
       "note": "Força relativa"
     },
     {
       "name": "Concentração Big Tech",
-      "score": 13,
+      "score": 15,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 82,
+      "score": 81,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
     {
       "name": "Distância da média de 200 dias",
-      "score": 41,
+      "score": 38,
       "weight": 15,
       "note": "Alongamento de preço"
     }
@@ -363,6 +363,10 @@
     {
       "date": "2026-08-20",
       "score": 46
+    },
+    {
+      "date": "2026-08-21",
+      "score": 47
     }
   ],
   "methodology_version": "1.0-price-proxy",
