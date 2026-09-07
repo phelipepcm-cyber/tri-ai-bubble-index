@@ -1,58 +1,58 @@
 {
   "is_demo": false,
-  "score": 51,
-  "score_change": 0,
+  "score": 50,
+  "score_change": -1,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-09-06T14:17:12.285011Z",
+  "updated_at": "2026-09-07T16:34:43.084125Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
       "value": "230,36",
-      "change": "+0,84% no último pregão",
-      "direction": "positive"
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
       "value": "26.506,99",
-      "change": "-0,29% no último pregão",
-      "direction": "negative"
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "14,53",
-      "change": "+1,47% no último pregão",
+      "value": "15,30",
+      "change": "+5,30% no último pregão",
       "direction": "positive"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
       "value": "567,01",
-      "change": "+2,61% no último pregão",
-      "direction": "positive"
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     }
   ],
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 48,
+      "score": 46,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
     {
       "name": "Momentum NVIDIA",
-      "score": 40,
+      "score": 38,
       "weight": 20,
       "note": "Proxy de euforia em IA"
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 83,
+      "score": 81,
       "weight": 15,
       "note": "Força relativa"
     },
@@ -64,7 +64,7 @@
     },
     {
       "name": "Complacência do VIX",
-      "score": 85,
+      "score": 82,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
@@ -423,6 +423,10 @@
     {
       "date": "2026-09-06",
       "score": 51
+    },
+    {
+      "date": "2026-09-07",
+      "score": 50
     }
   ],
   "methodology_version": "1.0-price-proxy",
