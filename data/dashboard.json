@@ -1,40 +1,40 @@
 {
   "is_demo": false,
-  "score": 47,
-  "score_change": -3,
+  "score": 48,
+  "score_change": 1,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-09-10T15:04:26.200857Z",
+  "updated_at": "2026-09-11T15:07:34.220191Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "218,20",
-      "change": "-2,45% no último pregão",
-      "direction": "negative"
+      "value": "220,13",
+      "change": "+0,81% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "26.143,88",
-      "change": "-0,42% no último pregão",
-      "direction": "negative"
+      "value": "26.381,87",
+      "change": "+1,15% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "17,44",
-      "change": "+5,95% no último pregão",
-      "direction": "positive"
+      "value": "15,98",
+      "change": "-10,43% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "563,95",
-      "change": "-1,80% no último pregão",
-      "direction": "negative"
+      "value": "570,26",
+      "change": "+1,78% no último pregão",
+      "direction": "positive"
     }
   ],
   "components": [
@@ -52,25 +52,25 @@
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 84,
+      "score": 83,
       "weight": 15,
       "note": "Força relativa"
     },
     {
       "name": "Concentração Big Tech",
-      "score": 18,
+      "score": 17,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 73,
+      "score": 79,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
     {
       "name": "Distância da média de 200 dias",
-      "score": 36,
+      "score": 38,
       "weight": 15,
       "note": "Alongamento de preço"
     }
@@ -435,6 +435,10 @@
     {
       "date": "2026-09-10",
       "score": 47
+    },
+    {
+      "date": "2026-09-11",
+      "score": 48
     }
   ],
   "methodology_version": "1.0-price-proxy",
