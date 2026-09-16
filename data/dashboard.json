@@ -1,58 +1,58 @@
 {
   "is_demo": false,
-  "score": 43,
-  "score_change": -1,
+  "score": 46,
+  "score_change": 3,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-09-15T15:38:01.977910Z",
+  "updated_at": "2026-09-16T15:27:55.968674Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "212,24",
-      "change": "+0,61% no último pregão",
+      "value": "216,04",
+      "change": "+1,83% no último pregão",
       "direction": "positive"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "25.991,28",
-      "change": "-0,75% no último pregão",
-      "direction": "negative"
+      "value": "26.195,66",
+      "change": "+0,82% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "17,73",
-      "change": "+3,68% no último pregão",
-      "direction": "positive"
+      "value": "16,70",
+      "change": "-2,91% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "542,91",
-      "change": "+0,26% no último pregão",
+      "value": "552,27",
+      "change": "+1,87% no último pregão",
       "direction": "positive"
     }
   ],
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 44,
+      "score": 50,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
     {
       "name": "Momentum NVIDIA",
-      "score": 27,
+      "score": 32,
       "weight": 20,
       "note": "Proxy de euforia em IA"
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 69,
+      "score": 71,
       "weight": 15,
       "note": "Força relativa"
     },
@@ -64,13 +64,13 @@
     },
     {
       "name": "Complacência do VIX",
-      "score": 72,
+      "score": 76,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
     {
       "name": "Distância da média de 200 dias",
-      "score": 33,
+      "score": 35,
       "weight": 15,
       "note": "Alongamento de preço"
     }
@@ -455,6 +455,10 @@
     {
       "date": "2026-09-15",
       "score": 43
+    },
+    {
+      "date": "2026-09-16",
+      "score": 46
     }
   ],
   "methodology_version": "1.0-price-proxy",
