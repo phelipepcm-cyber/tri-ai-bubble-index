@@ -1,52 +1,52 @@
 {
   "is_demo": false,
   "score": 51,
-  "score_change": 5,
+  "score_change": 0,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-09-17T15:35:49.402123Z",
+  "updated_at": "2026-09-18T15:03:51.814281Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
       "value": "219,12",
-      "change": "+2,44% no último pregão",
-      "direction": "positive"
+      "change": "-0,10% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "26.385,94",
-      "change": "+1,57% no último pregão",
-      "direction": "positive"
+      "value": "26.415,20",
+      "change": "-0,01% no último pregão",
+      "direction": "neutral"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "15,84",
-      "change": "-10,56% no último pregão",
+      "value": "15,41",
+      "change": "-0,19% no último pregão",
       "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "559,65",
-      "change": "+2,58% no último pregão",
+      "value": "564,49",
+      "change": "+0,69% no último pregão",
       "direction": "positive"
     }
   ],
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 57,
+      "score": 56,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
     {
       "name": "Momentum NVIDIA",
-      "score": 38,
+      "score": 37,
       "weight": 20,
       "note": "Proxy de euforia em IA"
     },
@@ -58,13 +58,13 @@
     },
     {
       "name": "Concentração Big Tech",
-      "score": 19,
+      "score": 20,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 80,
+      "score": 82,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
@@ -462,6 +462,10 @@
     },
     {
       "date": "2026-09-17",
+      "score": 51
+    },
+    {
+      "date": "2026-09-18",
       "score": 51
     }
   ],
