@@ -1,12 +1,12 @@
 {
   "is_demo": false,
   "score": 62,
-  "score_change": 1,
+  "score_change": 0,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-09-26T15:03:16.198173Z",
+  "updated_at": "2026-09-27T15:42:55.522465Z",
   "market_cards": [
     {
       "label": "NVIDIA",
@@ -498,6 +498,10 @@
     },
     {
       "date": "2026-09-26",
+      "score": 62
+    },
+    {
+      "date": "2026-09-27",
       "score": 62
     }
   ],
