@@ -1,39 +1,39 @@
 {
   "is_demo": false,
-  "score": 57,
+  "score": 56,
   "score_change": -1,
   "status": "Atenção",
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-10-05T19:40:52.138493Z",
+  "updated_at": "2026-10-06T17:19:36.980079Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "239,74",
-      "change": "+2,48% no último pregão",
+      "value": "239,80",
+      "change": "+0,38% no último pregão",
       "direction": "positive"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "27.516,57",
-      "change": "+1,20% no último pregão",
+      "value": "27.618,78",
+      "change": "+0,51% no último pregão",
       "direction": "positive"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "15,60",
-      "change": "+1,89% no último pregão",
-      "direction": "positive"
+      "value": "15,12",
+      "change": "-2,58% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "634,27",
-      "change": "+0,58% no último pregão",
+      "value": "634,47",
+      "change": "+0,09% no último pregão",
       "direction": "positive"
     }
   ],
@@ -46,25 +46,25 @@
     },
     {
       "name": "Momentum NVIDIA",
-      "score": 44,
+      "score": 43,
       "weight": 20,
       "note": "Proxy de euforia em IA"
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 86,
+      "score": 82,
       "weight": 15,
       "note": "Força relativa"
     },
     {
       "name": "Concentração Big Tech",
-      "score": 20,
+      "score": 19,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 81,
+      "score": 83,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
@@ -535,6 +535,10 @@
     {
       "date": "2026-10-05",
       "score": 57
+    },
+    {
+      "date": "2026-10-06",
+      "score": 56
     }
   ],
   "methodology_version": "1.0-price-proxy",
