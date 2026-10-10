@@ -6,34 +6,34 @@
   "headline": "Mercado aquecido",
   "summary_title": "Leitura do mercado",
   "summary": "A combinação de momentum, concentração e complacência ganhou força. O cenário pede maior seletividade e disciplina, embora ainda não configure risco extremo.",
-  "updated_at": "2026-10-09T17:29:54.288122Z",
+  "updated_at": "2026-10-10T16:18:17.880209Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "229,97",
-      "change": "-0,22% no último pregão",
+      "value": "229,28",
+      "change": "-0,52% no último pregão",
       "direction": "negative"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "27.339,95",
-      "change": "+0,54% no último pregão",
+      "value": "27.366,17",
+      "change": "+0,64% no último pregão",
       "direction": "positive"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "14,88",
-      "change": "-3,44% no último pregão",
+      "value": "14,84",
+      "change": "-3,70% no último pregão",
       "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "603,51",
-      "change": "-0,62% no último pregão",
+      "value": "603,33",
+      "change": "-0,65% no último pregão",
       "direction": "negative"
     }
   ],
@@ -52,7 +52,7 @@
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 64,
+      "score": 63,
       "weight": 15,
       "note": "Força relativa"
     },
@@ -70,7 +70,7 @@
     },
     {
       "name": "Distância da média de 200 dias",
-      "score": 45,
+      "score": 46,
       "weight": 15,
       "note": "Alongamento de preço"
     }
@@ -546,6 +546,10 @@
     },
     {
       "date": "2026-10-09",
+      "score": 48
+    },
+    {
+      "date": "2026-10-10",
       "score": 48
     }
   ],
