@@ -1,12 +1,12 @@
 {
   "is_demo": false,
   "score": 32,
-  "score_change": -4,
+  "score_change": 0,
   "status": "Baixo risco",
   "headline": "Mercado ainda saudável",
   "summary_title": "Leitura do mercado",
   "summary": "Os sinais de preço e volatilidade ainda não formam uma combinação típica de bolha. O mercado pode estar aquecido, mas o quadro geral permanece em zona saudável.",
-  "updated_at": "2026-10-17T14:18:38.468669Z",
+  "updated_at": "2026-10-18T14:43:00.511521Z",
   "market_cards": [
     {
       "label": "NVIDIA",
@@ -578,6 +578,10 @@
     },
     {
       "date": "2026-10-17",
+      "score": 32
+    },
+    {
+      "date": "2026-10-18",
       "score": 32
     }
   ],
