@@ -1,39 +1,39 @@
 {
   "is_demo": false,
   "score": 10,
-  "score_change": 1,
+  "score_change": 0,
   "status": "Baixo risco",
   "headline": "Mercado ainda saudável",
   "summary_title": "Leitura do mercado",
   "summary": "Os sinais de preço e volatilidade ainda não formam uma combinação típica de bolha. O mercado pode estar aquecido, mas o quadro geral permanece em zona saudável.",
-  "updated_at": "2026-11-06T18:10:32.644199Z",
+  "updated_at": "2026-11-07T16:56:12.348294Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "186,41",
-      "change": "+2,65% no último pregão",
+      "value": "186,64",
+      "change": "+2,78% no último pregão",
       "direction": "positive"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "24.593,92",
-      "change": "+1,15% no último pregão",
+      "value": "24.579,43",
+      "change": "+1,09% no último pregão",
       "direction": "positive"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "26,30",
-      "change": "-6,67% no último pregão",
+      "value": "25,64",
+      "change": "-9,01% no último pregão",
       "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "459,70",
-      "change": "+2,67% no último pregão",
+      "value": "463,96",
+      "change": "+3,62% no último pregão",
       "direction": "positive"
     }
   ],
@@ -52,7 +52,7 @@
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 0,
+      "score": 1,
       "weight": 15,
       "note": "Força relativa"
     },
@@ -64,7 +64,7 @@
     },
     {
       "name": "Complacência do VIX",
-      "score": 36,
+      "score": 39,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
@@ -646,6 +646,10 @@
     },
     {
       "date": "2026-11-06",
+      "score": 10
+    },
+    {
+      "date": "2026-11-07",
       "score": 10
     }
   ],
