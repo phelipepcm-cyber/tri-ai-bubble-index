@@ -6,7 +6,7 @@
   "headline": "Mercado ainda saudável",
   "summary_title": "Leitura do mercado",
   "summary": "Os sinais de preço e volatilidade ainda não formam uma combinação típica de bolha. O mercado pode estar aquecido, mas o quadro geral permanece em zona saudável.",
-  "updated_at": "2026-11-07T16:56:12.348294Z",
+  "updated_at": "2026-11-08T17:09:39.571474Z",
   "market_cards": [
     {
       "label": "NVIDIA",
@@ -650,6 +650,10 @@
     },
     {
       "date": "2026-11-07",
+      "score": 10
+    },
+    {
+      "date": "2026-11-08",
       "score": 10
     }
   ],
