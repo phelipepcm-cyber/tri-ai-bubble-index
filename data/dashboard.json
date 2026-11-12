@@ -1,46 +1,46 @@
 {
   "is_demo": false,
-  "score": 20,
-  "score_change": 6,
+  "score": 19,
+  "score_change": -1,
   "status": "Baixo risco",
   "headline": "Mercado ainda saudável",
   "summary_title": "Leitura do mercado",
   "summary": "Os sinais de preço e volatilidade ainda não formam uma combinação típica de bolha. O mercado pode estar aquecido, mas o quadro geral permanece em zona saudável.",
-  "updated_at": "2026-11-11T18:48:46.510247Z",
+  "updated_at": "2026-11-12T19:00:29.465072Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "177,21",
-      "change": "+4,92% no último pregão",
-      "direction": "positive"
+      "value": "164,74",
+      "change": "-5,17% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "25.641,54",
-      "change": "+2,30% no último pregão",
-      "direction": "positive"
+      "value": "25.410,64",
+      "change": "-0,22% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "17,38",
-      "change": "-10,69% no último pregão",
-      "direction": "negative"
+      "value": "17,79",
+      "change": "+1,72% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "515,73",
-      "change": "+6,64% no último pregão",
-      "direction": "positive"
+      "value": "501,81",
+      "change": "-1,01% no último pregão",
+      "direction": "negative"
     }
   ],
   "components": [
     {
       "name": "Momentum Nasdaq",
-      "score": 5,
+      "score": 4,
       "weight": 20,
       "note": "Retorno e aceleração"
     },
@@ -52,7 +52,7 @@
     },
     {
       "name": "Semicondutores vs. Nasdaq",
-      "score": 15,
+      "score": 14,
       "weight": 15,
       "note": "Força relativa"
     },
@@ -64,13 +64,13 @@
     },
     {
       "name": "Complacência do VIX",
-      "score": 73,
+      "score": 72,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
     {
       "name": "Distância da média de 200 dias",
-      "score": 21,
+      "score": 18,
       "weight": 15,
       "note": "Alongamento de preço"
     }
@@ -663,6 +663,10 @@
     {
       "date": "2026-11-11",
       "score": 20
+    },
+    {
+      "date": "2026-11-12",
+      "score": 19
     }
   ],
   "methodology_version": "1.0-price-proxy",
