@@ -1,39 +1,39 @@
 {
   "is_demo": false,
-  "score": 11,
-  "score_change": 2,
+  "score": 3,
+  "score_change": -8,
   "status": "Baixo risco",
   "headline": "Mercado ainda saudável",
   "summary_title": "Leitura do mercado",
   "summary": "Os sinais de preço e volatilidade ainda não formam uma combinação típica de bolha. O mercado pode estar aquecido, mas o quadro geral permanece em zona saudável.",
-  "updated_at": "2026-11-18T19:28:19.854428Z",
+  "updated_at": "2026-11-21T18:07:22.683372Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "151,80",
-      "change": "-2,35% no último pregão",
+      "value": "125,53",
+      "change": "-14,01% no último pregão",
       "direction": "negative"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "24.458,20",
-      "change": "+0,53% no último pregão",
-      "direction": "positive"
+      "value": "22.617,73",
+      "change": "-5,28% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "24,24",
-      "change": "-4,79% no último pregão",
-      "direction": "negative"
+      "value": "35,89",
+      "change": "+26,20% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "458,35",
-      "change": "-0,38% no último pregão",
+      "value": "400,06",
+      "change": "-10,60% no último pregão",
       "direction": "negative"
     }
   ],
@@ -58,19 +58,19 @@
     },
     {
       "name": "Concentração Big Tech",
-      "score": 21,
+      "score": 19,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 45,
+      "score": 0,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
     {
       "name": "Distância da média de 200 dias",
-      "score": 6,
+      "score": 0,
       "weight": 15,
       "note": "Alongamento de preço"
     }
@@ -683,6 +683,10 @@
     {
       "date": "2026-11-18",
       "score": 11
+    },
+    {
+      "date": "2026-11-21",
+      "score": 3
     }
   ],
   "methodology_version": "1.0-price-proxy",
