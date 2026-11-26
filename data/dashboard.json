@@ -1,40 +1,40 @@
 {
   "is_demo": false,
-  "score": 7,
-  "score_change": -1,
+  "score": 8,
+  "score_change": 1,
   "status": "Baixo risco",
   "headline": "Mercado ainda saudável",
   "summary_title": "Leitura do mercado",
   "summary": "Os sinais de preço e volatilidade ainda não formam uma combinação típica de bolha. O mercado pode estar aquecido, mas o quadro geral permanece em zona saudável.",
-  "updated_at": "2026-11-25T20:32:42.034574Z",
+  "updated_at": "2026-11-26T20:20:49.214465Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "147,62",
-      "change": "-4,99% no último pregão",
-      "direction": "negative"
+      "value": "149,30",
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "23.474,30",
-      "change": "-1,09% no último pregão",
-      "direction": "negative"
+      "value": "23.585,80",
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "27,94",
-      "change": "+5,99% no último pregão",
-      "direction": "positive"
+      "value": "26,80",
+      "change": "-5,27% no último pregão",
+      "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "416,66",
-      "change": "-2,36% no último pregão",
-      "direction": "negative"
+      "value": "422,46",
+      "change": "0,00% no último pregão",
+      "direction": "neutral"
     }
   ],
   "components": [
@@ -58,13 +58,13 @@
     },
     {
       "name": "Concentração Big Tech",
-      "score": 15,
+      "score": 17,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 29,
+      "score": 34,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
@@ -703,6 +703,10 @@
     {
       "date": "2026-11-25",
       "score": 7
+    },
+    {
+      "date": "2026-11-26",
+      "score": 8
     }
   ],
   "methodology_version": "1.0-price-proxy",
