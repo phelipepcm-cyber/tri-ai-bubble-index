@@ -1,40 +1,40 @@
 {
   "is_demo": false,
-  "score": 8,
-  "score_change": 1,
+  "score": 10,
+  "score_change": 2,
   "status": "Baixo risco",
   "headline": "Mercado ainda saudável",
   "summary_title": "Leitura do mercado",
   "summary": "Os sinais de preço e volatilidade ainda não formam uma combinação típica de bolha. O mercado pode estar aquecido, mas o quadro geral permanece em zona saudável.",
-  "updated_at": "2026-11-26T20:20:49.214465Z",
+  "updated_at": "2026-11-27T20:07:14.444149Z",
   "market_cards": [
     {
       "label": "NVIDIA",
       "symbol": "NVDA",
-      "value": "149,30",
-      "change": "0,00% no último pregão",
-      "direction": "neutral"
+      "value": "150,49",
+      "change": "+0,80% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "Nasdaq",
       "symbol": "IXIC",
-      "value": "23.585,80",
-      "change": "0,00% no último pregão",
-      "direction": "neutral"
+      "value": "24.129,50",
+      "change": "+2,31% no último pregão",
+      "direction": "positive"
     },
     {
       "label": "VIX",
       "symbol": "VIX",
-      "value": "26,80",
-      "change": "-5,27% no último pregão",
+      "value": "23,81",
+      "change": "-11,16% no último pregão",
       "direction": "negative"
     },
     {
       "label": "Semicondutores",
       "symbol": "SMH",
-      "value": "422,46",
-      "change": "0,00% no último pregão",
-      "direction": "neutral"
+      "value": "440,06",
+      "change": "+4,17% no último pregão",
+      "direction": "positive"
     }
   ],
   "components": [
@@ -58,19 +58,19 @@
     },
     {
       "name": "Concentração Big Tech",
-      "score": 17,
+      "score": 19,
       "weight": 15,
       "note": "Liderança do mercado"
     },
     {
       "name": "Complacência do VIX",
-      "score": 34,
+      "score": 47,
       "weight": 15,
       "note": "Baixa volatilidade"
     },
     {
       "name": "Distância da média de 200 dias",
-      "score": 0,
+      "score": 2,
       "weight": 15,
       "note": "Alongamento de preço"
     }
@@ -707,6 +707,10 @@
     {
       "date": "2026-11-26",
       "score": 8
+    },
+    {
+      "date": "2026-11-27",
+      "score": 10
     }
   ],
   "methodology_version": "1.0-price-proxy",
